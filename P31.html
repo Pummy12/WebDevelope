@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced CSS Selectors</title>
+    <style>
+        h1 {
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+        div p {
+            color: rgb(0, 0, 128);
+            background-color: orange;
+            font-weight: bold;
+        }
+        div + p {
+         background-color: rgb(224, 41, 142);
+         color: rgb(26, 9, 9);
+        }
+    </style>
+</head>
+<body>
+    <h1> This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <p> This is a paragraph</p>
+        </div>
+        <p> This is another paragraph</p>
+    </div>
+    <p> This is the third paragraph</p>
+</body>
+</html>
